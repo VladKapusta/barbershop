@@ -1,0 +1,118 @@
+:root {
+    --accent: #FF6C00;
+    --white-text: #FFFFFF;
+    --hero-pram-text: #9DA4BD;
+    --hero-second-text: rgba(157, 164, 189, 0.6);
+    --titel-text: #303030;
+    --primery-text: #555555;
+    --bg-onlain-book: #191C26;
+}
+body {
+    color: var(--primery-text);
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 1.66;
+    letter-spacing: 0.02em;
+}
+.header {
+    background-color: var(--bg-onlain-book);
+}
+.nav-list {
+    list-style: none;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.14;
+    letter-spacing: 0.1em;
+}
+.nav-link {
+    color: var(--white-text);
+    text-decoration: none;
+}
+.link-tel {
+    color: var(--white-text);
+
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.14;
+    letter-spacing: 0.1em;
+}
+.nav-link:hover,
+.nav-link:focus,
+.link-tel:hover,
+.link-tel:focus {
+    color: var(--accent);
+}
+.button {
+    padding: 12px 20px;
+    border-color: var(--accent);
+    background-color: transparent;
+    border-radius: 25px;
+    cursor: pointer;
+
+    color: var(--white-text);
+
+    font-family: inherit;
+    font-size: 12px;
+    line-height: 1.14;
+    letter-spacing: 0.09em;
+    text-transform: uppercase; 
+}
+
+.hero {
+    background-color: var(--bg-onlain-book);
+}
+.hero-pre-text {
+    color: var(--hero-second-text);
+    
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    text-transform: uppercase;
+}
+.hero-titel {
+    color: var(--white-text);
+
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 1.18;
+    letter-spacing: 0.05em;
+}
+.hero-text {
+    color: var(--hero-pram-text);
+
+    line-height: 1.89;
+}
+
+.about-list {
+    list-style: none;
+}
+.about-pre-text {
+    color: var(--titel-text);
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    text-transform: uppercase;
+ 
+}
+.about-titel {
+    color: var(--titel-text);
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.16;
+    letter-spacing: 0.05em;
+}
+.about-text {
+    font-size: 14px;
+    line-height: 1.85;
+}
+.about .button {
+    color: var(--titel-text);
+}
+
+.price {
+    background-color: var(--bg-onlain-book);
+}
