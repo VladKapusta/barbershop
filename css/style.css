@@ -116,3 +116,8 @@ body {
 .price {
     background-color: var(--bg-onlain-book);
 }
+.prices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
