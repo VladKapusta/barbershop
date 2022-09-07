@@ -113,11 +113,68 @@ body {
     color: var(--titel-text);
 }
 
-.price {
+.prices {
     background-color: var(--bg-onlain-book);
 }
-.prices {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.prices-pre-text {
+color: var(--hero-second-text);
+font-weight: 600;
+font-size: 11px;
+line-height: 1.36;
+text-transform: uppercase;
+}
+.prices-titel {
+    color: var(--white-text);
+font-family: 'Raleway', sans-serif;
+font-weight: 700;
+font-size: 42px;
+line-height: 1.16;
+letter-spacing: 0.05em;
+}
+.servis {
+    color: var(--hero-pram-text);
+}
+.price {
+    color: var(--hero-pram-text);
+}
+
+/* Features */
+.features-list-text {
+    color: var(--titel-text);
+font-weight: 600;
+font-size: 11px;
+line-height: 1.36;
+text-align: center;
+}
+.features-pre-text {
+    color: var(--titel-text);
+font-weight: 600;
+font-size: 11px;
+line-height: 1.36;
+text-transform: uppercase;
+}
+.features-titel {
+    color: var(--titel-text);
+    font-family: 'Raleway', sans-serif;
+font-weight: 700;
+font-size: 42px;
+line-height: 1.16;
+letter-spacing: 0.05em;
+}
+
+/* Barbers */
+.barber-pre-text {
+    color: var(--titel-text);
+font-weight: 600;
+font-size: 11px;
+line-height: 1.36;
+text-transform: uppercase;
+}
+.barber-titel {
+    color: var(--titel-text);
+    font-family: 'Raleway', sans-serif;
+font-weight: 700;
+font-size: 42px;
+line-height: 1.16;
+letter-spacing: 0.05em;
 }
