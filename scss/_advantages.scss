@@ -1,0 +1,87 @@
+.advantage {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.advantages {
+  display: flex;
+  padding-left: 100px;
+  column-gap: 130px;
+}
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  width: 370px;
+  gap: 30px;
+}
+.features__item {
+  padding: 20px 24px;
+  width: calc((100% - 30px) / 2);
+
+  text-align: center;
+
+  &:nth-child(2n) {
+    margin-top: 30px;
+  }
+  &:nth-child(2n + 1) {
+    margin-bottom: 30px;
+  }
+}
+.features__amt {
+  color: #303030;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 57px;
+  text-align: center;
+  letter-spacing: 0.05em;
+}
+.features__text {
+  color: #303030;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  text-align: center;
+}
+
+.advantages__contant {
+  width: 500px;
+}
+.advantages__pre-titel {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #303030;
+  &::before {
+    content: "";
+    display: inline-block;
+    width: 60px;
+    height: 1px;
+    margin-right: 20px;
+
+    background-color: #303030;
+  }
+}
+.advantages__titel {
+  width: 430px;
+  margin-bottom: 20px;
+
+  color: #303030;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 49px;
+  letter-spacing: 0.05em;
+}
+.advantages__text {
+  margin-bottom: 20px;
+
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  color: #555555;
+}

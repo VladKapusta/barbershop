@@ -1,0 +1,65 @@
+.section {
+  padding: 120px 0;
+}
+.about {
+  display: flex;
+  column-gap: 30px;
+}
+.about__picture {
+  display: flex;
+  :first-child {
+    margin-right: 30px;
+  }
+}
+.about__content {
+  width: 40%;
+}
+.about__pre-titel {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #303030;
+  &::before {
+    content: "";
+    display: inline-block;
+    width: 60px;
+    height: 1px;
+    margin-right: 20px;
+
+    background-color: #303030;
+  }
+}
+.about__titel {
+  margin-bottom: 20px;
+
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 49px;
+  letter-spacing: 0.05em;
+  color: #303030;
+}
+.about__pre-text {
+  margin-bottom: 20px;
+
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  color: #555555;
+}
+.about__text {
+  margin-bottom: 54px;
+
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 0.02em;
+  color: #555555;
+}
+.about__button {
+  padding: 12px 20px;
+}

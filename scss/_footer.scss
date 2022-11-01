@@ -1,0 +1,25 @@
+.footer {
+    padding-top: 130px;
+    padding-bottom: 120px;
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: #191C26;
+    background-image: url(../imeges/bg-footer.png);
+    background-size: 50% 100%;
+    background-position-x: 100%;
+    background-repeat: no-repeat;
+}
+.footer-page {
+    display: flex;
+}
+.footer__form {
+    width: 50%;
+}
+.footer__contacts {
+    width: 50%;
+    margin-left: 100px;
+}
+.contacts {
+    display: flex;
+    flex-direction: column;
+}
